@@ -1,11 +1,10 @@
 class Script(object):
 
-    START_MSG = """<b>Hy {}😻,
+    START_MSG = """<b>Hy {}😻,</b>
 
-Im a simple bot which is designed and built for adding filters in any group.
+<i>Im a simple bot which is designed and built for adding filters in any group.
 
-© @IET_Owner
-See <i>/help</i> for commands and more details.</b>
+See <b>/help</b> for commands and more details.</i>
 """
 
 
@@ -52,12 +51,12 @@ See <i>/help</i> for commands and more details.</b>
 """
 
 
-    ABOUT_MSG = """⚫<b>My Name : Filter Bot</b>
+    ABOUT_MSG = """⚫ <b>My Name : Filter Bot</b>
 
-⚫<b>Creater :</b> @IET_Owner   
+⚫ <b>Creater :</b> @IET_Owner   
 
-⚫<b>Language :</b> <code>Python3</code>
+⚫ <b>Language :</b> <code>Python3</code>
 
-⚫<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+⚫ <b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
 """
