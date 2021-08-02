@@ -30,7 +30,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("Let's Roll", url="http://t.me/BetterFiltersBot?startgroup=botstart")
                 ]
             ]
         )
