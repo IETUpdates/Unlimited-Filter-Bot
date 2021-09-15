@@ -32,10 +32,10 @@ See <b>/help</b> for commands and more details.</i>
 
 <b>Connection Commands;</b>
 
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
-<code>/connect</code> in groups.
+/connect groupid  -  Connect your group to my PM. You can also simply use,
+/connect in groups.
 
-<code>/connections</code>  -  Manage your connections.
+/connections  -  Manage your connections.
 
 
 <b>Extras;</b>
@@ -51,12 +51,12 @@ See <b>/help</b> for commands and more details.</i>
 """
 
 
-    ABOUT_MSG = """⚫ <b>My Name : Filter Bot</b>
+    ABOUT_MSG = """🔴 <b>My Name : Filter Bot</b> 🔴
 
-⚫ <b>Creater :</b> @IET_Owner   
+🔻 <b>Creater :</b> @IET_Owner   
 
-⚫ <b>Language :</b> <code>Python3</code>
+🔻 <b>Language :</b> <code>Python3</code>
 
-⚫ <b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+🔻 <b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
 """
