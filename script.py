@@ -51,7 +51,7 @@ See <b>/help</b> for commands and more details.</i>
 """
 
 
-    ABOUT_MSG = """🔴 <b>My Name : __Filter Bot__</b> 🔴
+    ABOUT_MSG = """<u>🔴 <b>My Name : __Filter Bot__</b> 🔴</u>
 
 🔻 <b>Creater :</b> @IET_Owner   
 
