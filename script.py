@@ -9,7 +9,7 @@ See <b>/help</b> for commands and more details.</i>
 
 
     HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
+<i>Add me as admin in your group and start filtering 😄:)</i>
 
 
 <b>Basic Commands;</b>
@@ -21,13 +21,13 @@ See <b>/help</b> for commands and more details.</i>
 
 <b>Filter Commands;</b>
 
-<code>/add name reply</code>  -  Add filter for name
+/add name reply  -  Add filter for name
 
-<code>/del name</code>  -  Delete filter
+/del name  -  Delete filter
 
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
+/delall  -  Delete entire filters (Group Owner Only!)
 
-<code>/viewfilters</code>  -  List all filters in chat
+/viewfilters  -  List all filters in chat
 
 
 <b>Connection Commands;</b>
@@ -51,7 +51,7 @@ See <b>/help</b> for commands and more details.</i>
 """
 
 
-    ABOUT_MSG = """🔴 <b>My Name : Filter Bot</b> 🔴
+    ABOUT_MSG = """🔴 <b>My Name : __Filter Bot__</b> 🔴
 
 🔻 <b>Creater :</b> @IET_Owner   
 
