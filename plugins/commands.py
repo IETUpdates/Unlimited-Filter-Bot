@@ -247,7 +247,7 @@ async def help(client, message):
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("📽️ For Series", url="https://t.me/mm_seriess"),
+                    InlineKeyboardButton("🛠️ Updates", url="https://t.me/iet_updates"),
                     InlineKeyboardButton("👩‍💻 Devloper", url="https://t.me/iet_owner")
                 ]
             ]
@@ -265,11 +265,11 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://t.me/IET_Owner/724")
+                        "➿ SOURCE CODE ➿", url="https://t.me/IET_Owner/724")
                 ],
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("⬅️ BACK", callback_data="help_data"),
+                    InlineKeyboardButton("CLOSE ❌", callback_data="close_data"),
                 ]                
             ]
         ),
