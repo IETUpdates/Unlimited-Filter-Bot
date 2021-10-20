@@ -70,11 +70,11 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://t.me/IET_Owner/724")
+                        "➿ SOURCE CODE ➿", url="https://t.me/IET_Owner/724")
                 ],
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("⬅️ BACK", callback_data="help_data"),
+                    InlineKeyboardButton("CLOSE ❌", callback_data="close_data"),
                 ]                
             ]
         )
