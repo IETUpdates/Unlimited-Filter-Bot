@@ -55,12 +55,10 @@ Filter is the feature were users can set automated replies for a particular keyw
 2. This bot supports buttons with any telegram media type.
 3. Buttons should be properly formatted as below or else result will be malformed.
 
-<b><u>Url Button</u>
-</b>
+<b><u>Url Button</u></b>
 <code>[Button Url](buttonurl://https://t.me/betterfiltersbot)</code>
 
-<b><u>Alert Button
-</u></b>
+<b><u>Alert Button</u></b>
 <code>[Button alert](buttonalert://🔥 This is a test buttonalert)</code>
 
 <b>© @IET_Owner</b>"""
