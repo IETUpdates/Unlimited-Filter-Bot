@@ -91,7 +91,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton("⬅️ BACK", callback_data="help_data"),
-                    InlineKeyboardButton("BUTTON 🌽", callback_data="btn_data"),
+                    InlineKeyboardButton("BUTTON 🌽", callback_data="butn_data"),
                 ]                
             ]
         )
@@ -137,7 +137,7 @@ async def cb_handler(client, query):
             disable_web_page_preview=True
         )
         return
-    elif query.data == "btn_data":
+    elif query.data == "butn_data":
         await query.answer()
         keyboard = InlineKeyboardMarkup(
             [
@@ -149,7 +149,7 @@ async def cb_handler(client, query):
         )
 
         await query.message.edit_text(
-            Script.BTN_MSG,
+            Script.BUTN_MSG,
             reply_markup=keyboard,
             disable_web_page_preview=True
         )
