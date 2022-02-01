@@ -6,39 +6,48 @@ class Script(object):
 
 See <b>/help</b> for commands and more details.</i>
 """
+    HELP_MSG = """<b>What is a filter bot?</b>
+<i>A bot were group admins can set replies for a particular keyword and the bot will automatically send preset replies whenever that keyword enountered in the chat.</i>
 
+<b>Usual commands:</b>
+/start - <code>check whether im online</code>
+/help - <code>get this help message</code>
+/about - <code>about me</code>
 
-    HELP_MSG = """
-<i>Add me as admin in your group and start filtering 😄:)</i>
+<b>© @IET_Owner</b>"""
+    COCT_MSG = """<b>Connections:</b>
+Used to connect bot to PM which let will you to execute both normal filter related commands and some other sensitive commands right from the PM that will
+reflect in the group which helps you to keep the filter additions and other stuffs private and helps to prevent flooding.
 
+<b>NOTE:</b>
+<i>1. Only admins can add a connection.
+2. Chat owner can enable/disable connection permission of admins by using </i><i>/permissions</i> <i>command.
+3. In a chat you can simply use the </i><i>/connect</i> <i>for starting a connection and in PM you must specify chat id right after the command.</i>
 
-<b>Basic Commands;</b>
+<b>Commands and Usage:</b>
+/connect <chat id> - <code>connect a particular chat to your PM</code>
+/disconnect <chat id> - <code>disconnect from a chat</code>
+/connections - <code>list all your connections</code>
 
-/start - Check if I'm alive!
-/help - Command help
-/about - Something about me!
+<b>© @IET_Owner</b>"""
+    FLTR_MSG = """<b>Filters:</b>
+Filter is the feature were users can set automated replies for a particular keyword and the bot will respond whenever a keyword is found the message
 
+<b>NOTE:</b>
+<i>1. bot should have admin privillage in order to reply filters in a chat.
+2. only admins can add filters in a chat.
+3. filters does support all the telegram markdowns, medias and buttons.
+4. alert buttons are also supported with a limit of 64 characters.
+5. there are some easter eggs, try to find it out.</i>
 
-<b>Filter Commands;</b>
+<b>Commands and Usage:</b>
+/add   - <code>add a filter</code>
+/view - <code>list all the filters of a chat</code>
+/del  - <code>delete a specific filter (separate keywords with spaces for deleting multiple filters at a time)</code>
+/delall - <code>delete the whole filters in a chat (chat owner only)</code>
 
-/add name reply  -  Add filter for name
-
-/del name  -  Delete filter
-
-/delall  -  Delete entire filters (Group Owner Only!)
-
-/viewfilters  -  List all filters in chat
-
-
-<b>Connection Commands;</b>
-
-/connect groupid  -  Connect your group to my PM. You can also simply use,
-/connect in groups.
-
-/connections  -  Manage your connections.
-
-
-<b>Extras;</b>
+<b>© @IET_Owner</b>"""
+    EXTR_MSG = """<b>Extras;</b>
 
 /status  -  Shows current status of your bot (Auth User Only)
 
@@ -46,17 +55,15 @@ See <b>/help</b> for commands and more details.</i>
 
 <code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
 
+<b>© @IET_Owner</b>"""
 
-<b>© @IET_Owner</b>
-"""
+    
 
 
-    ABOUT_MSG = """<u>🔴 <b>My Name : __Filter Bot__</b> 🔴</u>
+    ABOUT_MSG = """<u>🔴 </u><b><u>My Name : </u></b><u><b><i>Filter Bot</i></b> 🔴</u>
 
-🔻 <b>Creater :</b> @IET_Owner   
-
-🔻 <b>Language :</b> <code>Python3</code>
-
-🔻 <b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
-
-"""
+🔻 <b>Creater      :</b> @IET_Owner   
+🔻 <b>Server        : </b> <a href='http://heroku.com/'>Heroku</a>
+🔻 <b>Language  :</b> <code>Python3</code>
+🔻 <b>Database   : </b><a href='http://mongodb.com/'>Mongo DB</a>
+🔻 <b>Library        :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a>"""
