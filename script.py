@@ -42,7 +42,7 @@ Filter is the feature were users can set automated replies for a particular keyw
 
 <b>Commands and Usage:</b>
 /add   - <code>add a filter</code>
-/viewfilters - <code>list all the filters of a chat</code>
+/view - <code>list all the filters of a chat</code>
 /del  - <code>delete a specific filter (separate keywords with spaces for deleting multiple filters at a time)</code>
 /delall - <code>delete the whole filters in a chat (chat owner only)</code>
 
