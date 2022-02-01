@@ -63,7 +63,7 @@ Filter is the feature were users can set automated replies for a particular keyw
 </u></b>
 <code>[Button alert](buttonalert://🔥 This is a test buttonalert)</code>
 
-<u>* bot does support </u> <u><b><i>buttonurl</i></b> and </u><u><b><i>buttonalert</i></b> alias</u>"""
+<b>© @IET_Owner</b>"""
     EXTR_MSG = """<b>Extras;</b>
 
 /status  -  Shows current status of your bot (Auth User Only)
