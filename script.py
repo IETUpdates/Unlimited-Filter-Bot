@@ -47,6 +47,21 @@ Filter is the feature were users can set automated replies for a particular keyw
 /delall - <code>delete the whole filters in a chat (chat owner only)</code>
 
 <b>© @IET_Owner</b>"""
+    BTN_MSG = """<b>Buttons:</b>
+<i>@betterfiltersbot</i> <i>supports both url and alert inline buttons, now lets see how to implement it.</i>
+
+<b>NB:</b>
+1. Telegram will not allows you to send buttons without any content, so content is mandatory.
+2. This bot supports buttons with any telegram media type.
+3. Buttons should be properly formatted as below or else result will be malformed.
+
+<b>URL buttons:</b>
+<code>[Button Text](url://t.me/betterfiltersbot)</code>
+
+<b>Alert buttons:</b>
+<code>[Button Text](alert:Ahoy, this is an alert!)</code>
+
+<u>* bot does support </u><u><b><i>buttonurl</i></b> and </u><u><b><i>buttonalert</i></b> alias</u>"""
     EXTR_MSG = """<b>Extras;</b>
 
 /status  -  Shows current status of your bot (Auth User Only)
