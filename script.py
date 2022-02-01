@@ -47,7 +47,7 @@ Filter is the feature were users can set automated replies for a particular keyw
 /delall - <code>delete the whole filters in a chat (chat owner only)</code>
 
 <b>© @IET_Owner</b>"""
-    BTN_MSG = """<b>Buttons:</b>
+    BUTN_MSG = """<b>Buttons:</b>
 <i>@betterfiltersbot</i> <i>supports both url and alert inline buttons, now lets see how to implement it.</i>
 
 <b>NB:</b>
