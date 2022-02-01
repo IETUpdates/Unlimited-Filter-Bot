@@ -47,8 +47,12 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🎥 For Movies", url="https://t.me/mm_moviess"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("🍅 Filters", callback_data="fltr_data"),
+                    InlineKeyboardButton("🍇 Connection", callback_data="coct_data")
+                ],
+                [
+                    InlineKeyboardButton("🍏 EXTRA", callback_data="extr_data"),
+                    InlineKeyboardButton("🍋 ABOUT", callback_data="about_data")
                 ],
                 [
                     InlineKeyboardButton("🛠️ Updates", url="https://t.me/iet_updates"),
@@ -69,10 +73,6 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        "➿ SOURCE CODE ➿", url="https://t.me/IET_Owner/724")
-                ],
-                [
                     InlineKeyboardButton("⬅️ BACK", callback_data="help_data"),
                     InlineKeyboardButton("CLOSE ❌", callback_data="close_data"),
                 ]                
@@ -81,6 +81,75 @@ async def cb_handler(client, query):
 
         await query.message.edit_text(
             Script.ABOUT_MSG,
+            reply_markup=keyboard,
+            disable_web_page_preview=True
+        )
+        return
+    elif query.data == "fltr_data":
+        await query.answer()
+        keyboard = InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton("⬅️ BACK", callback_data="help_data"),
+                    InlineKeyboardButton("BUTTON 🌽", callback_data="btn_data"),
+                ]                
+            ]
+        )
+
+        await query.message.edit_text(
+            Script.FLTR_MSG,
+            reply_markup=keyboard,
+            disable_web_page_preview=True
+        )
+        return
+
+    elif query.data == "coct_data":
+        await query.answer()
+        keyboard = InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton("⬅️ BACK", callback_data="help_data"),
+                    InlineKeyboardButton("CLOSE ❌", callback_data="close_data"),
+                ]                
+            ]
+        )
+
+        await query.message.edit_text(
+            Script.COCT_MSG,
+            reply_markup=keyboard,
+            disable_web_page_preview=True
+        )
+        return
+    elif query.data == "extr_data":
+        await query.answer()
+        keyboard = InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton("⬅️ BACK", callback_data="help_data"),
+                    InlineKeyboardButton("CLOSE ❌", callback_data="close_data"),
+                ]                
+            ]
+        )
+
+        await query.message.edit_text(
+            Script.EXTR_MSG,
+            reply_markup=keyboard,
+            disable_web_page_preview=True
+        )
+        return
+    elif query.data == "btn_data":
+        await query.answer()
+        keyboard = InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton("⬅️ BACK", callback_data="help_data"),
+                    InlineKeyboardButton("CLOSE ❌", callback_data="close_data"),
+                ]                
+            ]
+        )
+
+        await query.message.edit_text(
+            Script.BTN_MSG,
             reply_markup=keyboard,
             disable_web_page_preview=True
         )
