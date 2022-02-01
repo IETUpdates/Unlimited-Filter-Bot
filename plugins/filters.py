@@ -175,7 +175,7 @@ async def addfilter(client, message):
     )
 
 
-@Client.on_message(filters.command('viewfilters'))
+@Client.on_message(filters.command('view'))
 async def get_all(client, message):
     
     chat_type = message.chat.type
@@ -268,7 +268,7 @@ async def deletefilter(client, message):
         await message.reply_text(
             "<i>Mention the filtername which you wanna delete!</i>\n\n"
             "<code>/del filtername</code>\n\n"
-            "Use /viewfilters to view all available filters",
+            "Use /view to view all available filters",
             quote=True
         )
         return
