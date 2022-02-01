@@ -154,7 +154,6 @@ async def cb_handler(client, query):
             disable_web_page_preview=True
         )
         return
-
     elif query.data == "close_data":
         await query.message.delete()
         
