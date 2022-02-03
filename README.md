@@ -19,9 +19,9 @@
   </a>  
 </p>
 
-[![IET UPDATES](https://img.shields.io/badge/iet_updates-Channel-orange?style=for-the-badge&logo=telegram)](https://telegram.dog/ietupdates)  
+[![IET UPDATES](https://img.shields.io/badge/IET_UPDATES-Channel-orange?style=for-the-badge&logo=telegram)](https://telegram.dog/iet_updates)  
 ㅤㅤㅤㅤㅤㅤㅤ  
-[![IET UPDATES](https://img.shields.io/badge/iet_support-Support-red?style=flat&logo=telegram)](https://telegram.dog/iet_zSupport)  [![IET UPDATES](https://img.shields.io/badge/ietupdates-Website-red?style=flat&logo=CodersRank)](https://ietupdates.me)  
+[![IET Support](https://img.shields.io/badge/IET_SUPPORT-Support-red?style=flat&logo=telegram)](https://telegram.dog/iet_Support)  [![IET UPDATES](https://img.shields.io/badge/IET UPDATES-Website-red?style=flat&logo=CodersRank)](https://ietupdates.me)  
 ㅤㅤㅤㅤㅤㅤㅤ  
 [![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat)](https://github.com/ietupdates/Unlimited-Filter-Bot/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ietupdates/Unlimited-Filter-Bot)
 
